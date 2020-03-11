@@ -1,0 +1,363 @@
+{
+  "locales": {
+    "en-US": "English",
+    "ko-KR": "한국어",
+    "zh-CN": "中文",
+    "ja-JP": "日本語"
+  },
+  "pagination": {
+    "rows": "显示{countOfRow}行"
+  },
+  "alert": {
+    "defaultTitle": "警报",
+    "defaultMessage": "信息"
+  },
+  "time": {
+    "units": {
+      "minute": "分",
+      "hour": "时",
+      "day": "日",
+      "second": "秒",
+      "week": "周",
+      "month": "月"
+    }
+  },
+  "date": {
+    "yearMonth": "{year}年{month}月",
+    "year": "年",
+    "month": "月",
+    "mon": "周一",
+    "tues": "周二",
+    "wed": "周三",
+    "thur": "周四",
+    "fri": "周五",
+    "sat": "周六",
+    "sun": "周日"
+  },
+  "months": {
+    "1": "Jan",
+    "2": "Feb",
+    "3": "Mar",
+    "4": "Apr",
+    "5": "May",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Aug",
+    "9": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  },
+  "confirm": {
+    "yes": "确定",
+    "no": "取消",
+    "save": "保存",
+    "cancel": "取消",
+    "apply": "应用",
+    "delete": "删除",
+    "preview": "预览"
+  },
+  "actions": {
+    "edit": "修改",
+    "modify": "修改",
+    "delete": "删除",
+    "save": "保存",
+    "create": "创建",
+    "add": "添加",
+    "ok": "确定",
+    "cancel": "取消",
+    "enable": "启用",
+    "disable": "禁用",
+    "search": "搜索",
+    "copyURL": "复制URL"
+  },
+  "enabled": {
+    "true": "启用",
+    "false": "禁用"
+  },
+  "public": {
+    "gate": {
+      "projectName": "Cloud Log Analytics (CLA)",
+      "seeAll": "查看更多",
+      "learnMore": "了解更多",
+      "download": "下载",
+      "refresh": "刷新",
+      "help": "帮助",
+      "region": "区域集成服务",
+      "subTitle": "该系统存储使用NAVER CLOUD PLATFORM服务时发生的日志，并提供有关它们的分析数据。",
+      "subTitleDescription": "存储使用NAVER CLOUD PLATFORM的服务（包括服务器）时发生的日志并进行分析。<br>查找并下载所需的日志数据，以有效地管理日志。",
+      "describeTag01": "易于使用",
+      "describeTag02": "实时日志收集和查找",
+      "describeTag03": "有效的日志管理",
+      "describeTag04": "各种附加功能（稍后提供）",
+      "noticeTitle": "改进指南"
+    },
+    "bytes": "字符",
+    "necessary": "这是必填字段。",
+    "noDataInfo": "没有数据.",
+    "success": "成功",
+    "error": "错误",
+    "warn": "警告",
+    "filter": "过滤器",
+    "selectedAll": "全部"
+  },
+  "status": {
+    "enabled": "启用",
+    "disabled": "禁用"
+  },
+  "validate": {
+    "customDefault": "该字段必须是有效的值。",
+    "customRequired": "该字段是必填的。",
+    "customIn": "该字段必须是有效的值。",
+    "customMax": "该字段不能超过{param}个字符。",
+    "customMin": "该字段至少需要{param}个字符。",
+    "customMaxValue": "该字段必须小于{param}。",
+    "customMinValue": "该字段必须大于{param}。",
+    "customExt": "该字段必须是有效的{param}文件。",
+    "customSize": "该文件的大小必须小于{param}KB.",
+    "namePattern": "只允许使用英文字母，数字和下划线（_）。",
+    "domain": "无效的格式。",
+    "numMax": "必须小于{param}。",
+    "byteMax": "您最多可以输入{param}字符。",
+    "numEn": "仅允许输入英文字母，数字，特殊字符“-”，且须以英文字母开头。",
+    "ipAddress": "仅允许输入数字，特殊字符“.”。",
+    "numEnKorea": "仅允许输入英文字母，韩文，数字，特殊字符“-”，且须以英文字母开头。"
+  },
+  "error": {
+    "home": "返回主页",
+    "error404": {
+      "title": "Resource Not Found",
+      "desc_1": "由于页面地址无效或内部错误，无法显示页面。",
+      "desc_2": "对您造成的不便，我们深表歉意。",
+      "desc_3": "请检查您输入的地址是否正确。",
+      "desc_4": "如果问题仍然存在，请联系我们的帮助中心（1544-5876）。"
+    },
+    "error401": {
+      "title": "Request Error",
+      "desc_1": "由于页面地址无效或内部错误，无法显示页面。",
+      "desc_2": "对您造成的不便，我们深表歉意。",
+      "desc_3": "请检查您输入的地址是否正确。",
+      "desc_4": "如果问题仍然存在，请联系我们的帮助中心（1544-5876）。"
+    },
+    "error500": {
+      "title": "Internal Server Error",
+      "desc_1": "由于页面地址无效或内部错误，无法显示页面。",
+      "desc_2": "对您造成的不便，我们深表歉意。",
+      "desc_3": "请检查您输入的地址是否正确。",
+      "desc_4": "如果问题仍然存在，请联系我们的帮助中心（1544-5876）。"
+    },
+    "errorTitle": "告警",
+    "errorMessage": "<strong>请稍后再试。</strong><br><br>服务暂时不可用。<br>如果持续出现错误请联系客服。"
+  },
+  "common": {
+    "enable": "启用产品",
+    "filter": "筛选"
+  },
+  "home": {
+    "description": "请再次登录以继续使用该服务。",
+    "btn": "登录",
+    "apply-p-1": "您没有订阅Cloud Log Analytics。",
+    "apply-p-2": "请单击<em> [使用申请] </em>按钮以申请使用Cloud Log Analytics服务。",
+    "apply-btn": "使用申请",
+    "release-p-1": "单击[禁用产品]取消对Cloud Log Analytics的订阅。",
+    "release-p-2": "如果您同意取消该服务，则不再提供该服务， ",
+    "release-p-3": "并且使用该服务时保存的所有数据也将被删除。",
+    "release-p-4": "取消服务之前，应删除设置和已安装的代理，以避免不必要的流量。",
+    "release-btn": "禁用产品",
+    "modal-tips-title": "订阅",
+    "modal-tips-1": "您的请求已成功提交。",
+    "modal-tips-2": "使用该服务时保存的所有数据将被删除。",
+    "modal-tips-3": "确认删除吗？"
+  },
+  "management": {
+    "settingBtn": "添加设置",
+    "deleteBtn": "删除设置",
+    "excel": "下载",
+    "questionMark": "帮助",
+    "serverName": "服务器名称",
+    "serverStatus": "状态",
+    "privateIP": "私有IP地址",
+    "zone": "ZONE",
+    "serverImageName": "服务器映像名称",
+    "cloudDbServiceName": "数据库服务名称",
+    "dbRole": "DB Role",
+    "dbServerName": "DB Server 名称",
+    "dbServerType": "DB Server 类型",
+    "dataStorage": "数据存储",
+    "dbStatus": "Status",
+    "settingStatus": "设置状态",
+    "searchPlaceholder": "请输入搜索词",
+    "notSet": "未设置",
+    "createDate": "创建日期",
+    "operateDate": "开始日期",
+    "logSettingDate": "日志收集设置日期",
+    "publicIP": "Public IP 地址",
+    "logAgentVersion": "日志收集代理版本",
+    "logTypeNumber": "日志收集类型个数",
+    "configKey": "Install Key",
+    "uncollectedStatus": "未收集状态",
+    "settingComplete": "设置完成",
+    "logSetting": {
+      "title": "设置日志收集",
+      "serverName": "服务器名称",
+      "selectAll": "全选",
+      "template": "Log Template",
+      "logType": "Log Type",
+      "logPath": "Log 路径",
+      "ok": "设置完成",
+      "cancel": "取消设置",
+      "templateDefault": "选择 Template",
+      "typeDefault": "选择 log type",
+      "tips-1": "路径/文件访问错误。 请输入有效的日志路径。",
+      "tips-2": "不能设置相同的日志类型/路径。",
+      "tips-3": "仅允许使用小写英文字母和下划线（_），并且最多可以包含20个字符。",
+      "tips-4": "选择一个模板，它将自动添加。 如果选择[自定义日志]，请输入日志类型和日志路径，然后单击[添加]。",
+      "feesInfo": "Cloud Log Analytics费用是您的日志存储费用和API调用费用的总和。"
+    },
+    "osMap": {
+      "windowsServer1": "[英文] Windows Server 2008 R2 with SP1 (64-bit)",
+      "windowsServer2": "[英文] Windows Server 2016 (64-bit)",
+      "windowsServer3": "英文"
+    },
+    "logDelete": {
+      "title": "删除日志收集设置",
+      "ok": "OK",
+      "cancel": "Cancel"
+    },
+    "settingGuide": {
+      "title": "如何在服务器中安装CLA代理",
+      "desc-1": "日志收集设置已添加。",
+      "desc-2": "要开始收集日志，必须按如下所示将代理安装在您设置的服务器上。",
+      "desc-3": "请注意，即使在控制台屏幕上完成了收集配置注册，如果未在服务器上安装代理，也不会收集日志。",
+      "step-1-1": "连接到日志收集服务器并登录。",
+      "step-1-2": "有关服务器连接的详细说明，请在用户指南中参阅“",
+      "step-1-3": "服务器连接指南",
+      "step-1-4": "“。",
+      "step-2-1": "在服务器上运行下面显示的“日志收集代理安装命令”。 复制到剪贴板很方便。",
+      "step-2-2": "日志收集代理安装命令",
+      "step-2-3": "复制到剪贴板",
+      "step-2-4-1": "Please run ",
+      "step-2-4-2": " if you choose Windows 2008.",
+      "step-3-1": "在服务器上执行“日志收集代理安装命令”将自动进行下载，安装和配置代理。",
+      "step-3-2": "设置完成后，将显示以下消息。",
+      "step-3-3": "日志收集代理安装命令执行结果",
+      "step-3-4": "================= Finish Installation =================",
+      "step-4-1": "验证是否正在收集您在Cloud Log Analytics仪表板屏幕上设置的服务器中的日志。",
+      "step-4-2": "如果不是，请检查代理安装期间是否发生错误，然后返回到步骤2。",
+      "close": "关闭",
+      "windowsOthers": " over 2012"
+    },
+    "deleteGuide": {
+      "title": "如何停止从服务器收集日志",
+      "desc-1": "日志收集信息的删除已完成。",
+      "desc-2": "服务器中的日志收集代理全部删除之后，才能停止从服务器收集日志。",
+      "desc-3": "请注意，即使您已在控制台上禁用了日志收集设置，仍在服务器中运行的代理也可能产生不必要的流量。",
+      "step-1-1": "连接到日志收集服务器并登录。",
+      "step-1-2": "有关服务器连接的详细说明，请在用户指南中参阅“",
+      "step-1-3": "服务器连接指南",
+      "step-1-4": "“。",
+      "step-2-1": "在服务器上运行下面显示的“日志收集代理程序删除命令”。 复制到剪贴板很方便。",
+      "step-2-2": "删除日志收集代理的命令",
+      "step-2-3": "复制到剪贴板",
+      "step-3-1": "在服务器上运行“日志收集代理安装命令”会自动删除该代理并停止收集日志。",
+      "step-3-2": "设置完成后，将显示以下消息。",
+      "step-3-3": "日志收集代理程序删除命令执行结果",
+      "step-3-4": "Remove Agent",
+      "close": "关闭"
+    },
+    "noserverDialog": {
+      "title": "用户指南",
+      "p-1": "您没有任何服务器产品。",
+      "p-2-1": "首先创建服务器，然后单击<span class=\"text-light-blue\">[添加设置]</span>以启动Cloud Log Analytics服务",
+      "btn-1": "创建服务器"
+    }
+  },
+  "dashboard": {
+    "logCountTotal": "总 Log 量",
+    "logCountLatest": "最近 Log 量(1M)",
+    "productionInfo": "服务信息",
+    "storageCapacity": "存储容量",
+    "typeCapacity": "按类型统计存储",
+    "error-1": "获取数据时发生错误。",
+    "error-2": "这可能是暂时性问题，也可能是网络问题。 请稍后再试，如果问题仍然存在，请联系我们的帮助中心。",
+    "error-3": "没有找到数据。",
+    "logCountGlance": "每日 Log 量",
+    "typeLogOccurrence": "按类型统计 Log 量",
+    "serverLogOccurrence": "按服务器统计 Log 量"
+  },
+  "exportlog": {
+    "settingBtn": "自动导出设置",
+    "offBtn": "关闭自动导出",
+    "autoSetupHistory": {
+      "tabName": "自动设定记录",
+      "thead": {
+        "executionTime": "执行时间",
+        "executionState": "开启/关闭",
+        "region": "区域",
+        "targetBucket": "目标Bucket",
+        "exportLogType": "Export Log 种类"
+      }
+    },
+    "exportExecutionHistory": {
+      "tabName": "导出执行历史",
+      "thead": {
+        "type": "类型",
+        "folderName": "文件夹名称",
+        "progress": "进度",
+        "status": "状态",
+        "description": "说明",
+        "settingTime": "设置时间"
+      }
+    },
+    "complete": "完成",
+    "fail": "失败",
+    "Auto": "自动",
+    "Manual": "手动",
+    "exportStatus": {
+      "off": "关闭",
+      "on": "开启"
+    },
+    "autoMsg": "将搜索结果导出到对象存储。<br> 请选择要导出的目标存储，如果尚未创建存储，<br>请先在对象存储中创建存储。<br> 导出的文件将保存在所选存储的CLAExport文件夹中。",
+    "off-1": "当前设置的自动导出信息将从第二天开始发布并应用。",
+    "off-2": "如果要取消，请单击“取消设置”按钮。",
+    "off-btn": "取消设置",
+    "logSucMsg": "自动导出设置已关闭。"
+  },
+  "search": {
+    "logType": "Log 类型",
+    "event": "事件",
+    "timeOccurrence": "生成时间",
+    "serverName": "服务器名称",
+    "logContent": "Log 内容",
+    "tips-1": "输入错误，开始时间必须小于结束时间。",
+    "tips-2": "请输入有效时间(00:00-23:59)。",
+    "error-1": "给您带来不便，我们深表歉意。",
+    "error-2": "由于以下原因，显示此页面。",
+    "error-3": "- 搜索结果太多（超过 10，000 个结果）。",
+    "error-4": "通过更改搜索条件来优化搜索。",
+    "nearest": "最近",
+    "min": "分",
+    "hours": "时",
+    "directInput": "直接输入",
+    "objectStorage": {
+      "exportBtn": "导出 Object Storage",
+      "tip-1": "如果要使用 Object Storage，则需提前准备一个 API 授权密钥。<br>您可以在<span class='text-light-blue'> portal> My Page> Manage Accounts> Manage Authentication Keys </span>菜单中创建密钥。",
+      "tip-2": "将搜索结果导出到 Object Storage 中。",
+      "tip-3": "选择要导出的目标 Storage Bucket，如果尚未创建 Storage Bucket，请先在 Object Storage 中创建 Storage Bucket。",
+      "tip-4": "导出的文件将保存在所选 Storage Bucket 的 CLAExport 文件夹中。",
+      "bucketBtn": "请选择 Bucket",
+      "linkToLogBtn": "跳转到 Export Log",
+      "sendResultTip-1": "导出对象存储正在正常执行。",
+      "sendResultTip-2": "您可以在 Export Log 中查看进度.",
+      "sendResultTip-3": "系统当前正忙。",
+      "sendResultTip-4": "请稍后再试。",
+      "selectLog": "选择 log 类型"
+    },
+    "logOccurrenceTime": "Log 生成时间",
+    "no-region": "没有可选地区。",
+    "no-bucket": "未创建存储。",
+    "fileStorage": {
+      "tipTitle": "指南"
+    }
+  }
+}

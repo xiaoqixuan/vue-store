@@ -1,0 +1,12 @@
+dist/**
+release/**
+.vscode/**
+.idea/**
+.history/**
+node_modules/**
+build/**
+public/**
+utils/array.ts
+router/**
+api/**
+babel.config.js

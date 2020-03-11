@@ -1,0 +1,377 @@
+{
+  "locales": {
+    "en-US": "English",
+    "ko-KR": "한국어",
+    "zh-CN": "中文",
+    "ja-JP": "日本語"
+  },
+  "pagination": {
+    "rows": "{countOfRow} 行を表示"
+  },
+  "alert": {
+    "defaultTitle": "通知",
+    "defaultMessage": "メッセージ"
+  },
+  "time": {
+    "units": {
+      "minute": "分",
+      "hour": "時間",
+      "day": "日",
+      "second": "秒",
+      "week": "週",
+      "month": "月"
+    }
+  },
+  "date": {
+    "yearMonth": "{year}年{month}月",
+    "year": "年",
+    "month": "月",
+    "mon": "月",
+    "tues": "火",
+    "wed": "水",
+    "thur": "木",
+    "fri": "金",
+    "sat": "土",
+    "sun": "日"
+  },
+  "months": {
+    "1": "Jan",
+    "2": "Feb",
+    "3": "Mar",
+    "4": "Apr",
+    "5": "May",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Aug",
+    "9": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  },
+  "confirm": {
+    "yes": "はい",
+    "no": "いいえ",
+    "save": "保存",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "delete": "Delete",
+    "preview": "Preview"
+  },
+  "actions": {
+    "edit": "Edit",
+    "modify": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "create": "Create",
+    "add": "Add",
+    "ok": "確認",
+    "cancel": "Cancel",
+    "enable": "Enable",
+    "disable": "Disable",
+    "search": "Search",
+    "copyURL": "Copy URL"
+  },
+  "enabled": {
+    "true": "Enabled",
+    "false": "Disabled"
+  },
+  "public": {
+    "gate": {
+      "projectName": "Cloud Log Analytics (CLA)",
+      "seeAll": "もっと見る",
+      "learnMore": "商品についてもっと詳しく知る",
+      "download": "ダウンロード",
+      "refresh": "リフレッシュ",
+      "help": "ヘルプ",
+      "region": "Region統合サービス",
+      "subTitle": "NAVERクラウドプラットフォームの商品を利用しているときに発生する様々なログを簡単に保存し、分析データを提供するシステム。",
+      "subTitleDescription": "サーバをはじめ、NAVERクラウドプラットフォームが提供する様々な商品を使用するときに発生するログ履歴を保存し、分析することができます。<br>様々な検索機能を使用して簡単にデータを検索し、必要な情報を手軽にダウンロードできるため、ログ管理を効果的に行えます。",
+      "describeTag01": "簡単かつ便利な使用",
+      "describeTag02": "リアルタイムのログ収集及び検索",
+      "describeTag03": "効率的なログ管理",
+      "describeTag04": "多様な付加機能を提供（機能追加予定）",
+      "noticeTitle": "改善のご案内"
+    },
+    "bytes": "bytes",
+    "necessary": "Indicates required fields.",
+    "noDataInfo": "No data found.",
+    "success": "Success",
+    "error": "Error",
+    "warn": "Warning",
+    "filter": "Filter",
+    "selectedAll": "全体"
+  },
+  "status": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "validate": {
+    "customDefault": "The field must be a valid value.",
+    "customRequired": "The field is required.",
+    "customIn": "The field must be a valid value.",
+    "customMax": "The field may not be greater than {param} characters.",
+    "customMin": "The field must be at least {param} characters.",
+    "customMaxValue": "The field must be less than {param}.",
+    "customMinValue": "The field must be more than {param}.",
+    "customExt": "The field must be a valid {param} file.",
+    "customSize": "The file size must be less than {param}KB.",
+    "namePattern": "Only English alphabet, numbers and underscore (_) are allowed.",
+    "domain": "Invalid format.",
+    "numMax": "Should be less than {param}.",
+    "byteMax": "Can be up to {param} characters.",
+    "numEn": "英字、数字、特殊文字（-）のみを許可し、最初の文字は英字でなければなりません。",
+    "ipAddress": "数字と' . 'のみ入。",
+    "numEnKorea": "英語、ハングル、数字、「 - 」の特殊文字のみを許可し、英語で起動する必要があります。"
+  },
+  "error": {
+    "home": "Go to Home",
+    "error404": {
+      "title": "Resource Not Found",
+      "desc_1": "The page cannot be displayed due to an invalid page address or internal error.",
+      "desc_2": "We're sorry for your inconvenience.",
+      "desc_3": "Please check if the address you entered is correct.",
+      "desc_4": "If the problem persists, contact our Help Center (1544-5876)."
+    },
+    "error401": {
+      "title": "Request Error",
+      "desc_1": "The page cannot be displayed due to an invalid page address or internal error.",
+      "desc_2": "We're sorry for your inconvenience.",
+      "desc_3": "Please check if the address you entered is correct.",
+      "desc_4": "If the problem persists, contact our Help Center (1544-5876)."
+    },
+    "error500": {
+      "title": "Internal Server Error",
+      "desc_1": "アクセスしようとするページのアドレスが誤って入力されたか 、内部エラーが発生し、 ",
+      "desc_2": "ページを正常に表示することができません。ご不便をおかけして申し訳ありません。",
+      "desc_3": "入力されたアドレスで間違いないかもう一度確かめてください。",
+      "desc_4": "継続的なエラーが発生した場合、サポートセンター(1544-5876)にお問い合わせいただければ素早く対応いたします。"
+    },
+    "errorTitle": "通知",
+    "errorMessage": "<strong>しばらくしてから、もう一度お試しください。</ strong> <br> <br>一時的に使用が円滑ではありません。<br>エラーが続く場合は、サポートセンターまでお問い合わせください。"
+  },
+  "common": {
+    "enable": "利用設定",
+    "filter": "フィルタ"
+  },
+  "home": {
+    "description": "再びサービスを利用したいならログインをしてください。",
+    "btn": "ログイン",
+    "apply-p-1": "現在Cloud Log Analyticsサービスを利用していません。",
+    "apply-p-2": "<em>利用申し込み</em>ボタンをクリックして、Cloud Log Analyticsサービスをお申し込みください",
+    "apply-btn": "利用申し込み",
+    "release-p-1": "サービスの利用を解除する場合は、利用解除ボタンをクリックします。",
+    "release-p-2": "利用解除に同意すると、サービスが提供されなくなります。",
+    "release-p-3": "また、サービスの利用中に保存されたデータは、一緒に削除されます。",
+    "release-p-4": "不要なトラフィックの発生を防ぐには、サービスを解除する前に設定を解除し、agentの削除を完了していただく必要があります。",
+    "release-btn": "利用解除",
+    "modal-tips-title": "利用申し込みの確認",
+    "modal-tips-1": "利用申し込みが完了しました。",
+    "modal-tips-2": "サービスの利用中に保存されたデータはすべて削除されます。",
+    "modal-tips-3": "削除しますか?"
+  },
+  "management": {
+    "settingBtn": "収集を設定",
+    "deleteBtn": "収集を解除",
+    "excel": "ダウンロード",
+    "questionMark": "ヘルプ",
+    "serverName": "サーバ名",
+    "serverStatus": "状態",
+    "privateIP": "非公認IP",
+    "zone": "ZONE",
+    "serverImageName": "サーバ画像名",
+    "cloudDbServiceName": "DBサービス名",
+    "dbRole": "DB Role",
+    "dbServerName": "DB Server名",
+    "dbServerType": "DB Serverタイプ",
+    "dataStorage": "データストレージ",
+    "dbStatus": "Status",
+    "settingStatus": "設定状態",
+    "searchPlaceholder": "検索語を入力してください。",
+    "notSet": "未設定",
+    "createDate": "作成日時",
+    "operateDate": "起動日時",
+    "logSettingDate": "Log収集の設定日時",
+    "publicIP": "グローバルIP",
+    "logAgentVersion": "Log収集のAgentバージョン",
+    "logTypeNumber": "Log収集Type数",
+    "configKey": "Install Key",
+    "uncollectedStatus": "未収集状態",
+    "settingComplete": "設定完了",
+    "logSetting": {
+      "title": "Log収集設定",
+      "serverName": "サーバ名",
+      "selectAll": "全体を選択",
+      "template": "Log Template",
+      "logType": "Log Type",
+      "logPath": "Logパス",
+      "ok": "設定完了",
+      "cancel": "設定をキャンセル",
+      "templateDefault": "テンプレートの選択",
+      "typeDefault": "Log Typeを選択",
+      "tips-1": "パス/ファイルのアクセスエラーです。有効なログのパスを入力してください。",
+      "tips-2": "同じログタイプ/パスは設定できません。",
+      "tips-3": "英字小文字と特殊文字（_）のみを使用して、最大20文字まで入力できます。",
+      "tips-4": "テンプレートを選択すると自動的に登録されます。Custom logについては、log typeとlogパスを入力した後、追加ボタンを押してください。",
+      "feesInfo": "Cloud Log Analytics料金は、使用したログの保存料金とAPI呼び出し料金を合計して請求されます。"
+    },
+    "osMap": {
+      "windowsServer1": "[英文]Windows Server 2008 R2 with SP1 (64-bit)",
+      "windowsServer2": "[英文]Windows Server 2016 (64-bit)",
+      "windowsServer3": "[英文]Windows Server 2012(64bit) R2"
+    },
+    "logDelete": {
+      "title": "Log収集を解除",
+      "ok": "解除を完了",
+      "cancel": "解除をキャンセル"
+    },
+    "settingGuide": {
+      "title": "Cloud Log Analytics商品を使用するためのサーバ内agentのインストールガイド",
+      "desc-1": "設定したログ収集情報の登録が完了しました。",
+      "desc-2": "ログの収集を開始するには、設定されたサーバに、次のような手順でagentをインストールする必要があります。",
+      "desc-3": "コンソール画面で収集設定の登録を完了した場合でも、サーバにagentがインストールされていないと、ログが収集されないのでご注意ください。",
+      "step-1-1": "ログ収集サーバに接続してログインします。",
+      "step-1-2": "サーバに接続する詳細方法については、ユーザーガイドの「",
+      "step-1-3": "サーバ接続ガイド",
+      "step-1-4": "」を参照してください。",
+      "step-2-1": "以下に示す「ログ収集agentのインストールコマンド」をサーバ上で実行します。クリップボードにコピーする機能を利用すると便利です。",
+      "step-2-2": "ログ収集agentのインストールコマンド",
+      "step-2-3": "クリップボードにコピーする",
+      "step-2-4-1": "もしWindows 2008を選択している場合は、",
+      "step-2-4-2": "を実行してください。",
+      "step-3-1": "「ログ収集agentのインストールコマンド」をサーバ上で実行すると、自動的にagentをダウンロードし、インストールと設定まで行われます。",
+      "step-3-2": "設定が完了すると、以下のようなメッセージが出力されます。",
+      "step-3-3": "ログ収集agentのインストールコマンドの実行結果",
+      "step-3-4": "================= Finish Installation =================",
+      "step-4-1": "Cloud Log Analyticsのダッシュボード画面で設定したサーバのログが収集されていることを確認します。",
+      "step-4-2": "もし収集できない場合は、agentのインストール中にエラーが発生していないかを確認し、手順2をもう一度繰り返してください。",
+      "close": "閉じる",
+      "windowsOthers": "2012以上"
+    },
+    "deleteGuide": {
+      "title": "Cloud Log Analytics商品のサーバログの収集を停止するためのガイド",
+      "desc-1": "ログ収集情報の削除が完了しました。",
+      "desc-2": "ログ収集の解除を完了するには、サーバにインストールされたagentを完全に削除する必要があります。",
+      "desc-3": "コンソール画面で収集設定を解除した場合でも、サーバにagentがインストールされたまま動作している場合、不要なトラフィックが発生することがあるのでご注意ください。",
+      "step-1-1": "ログ収集サーバに接続してログインします。",
+      "step-1-2": "サーバに接続する詳細方法については、ユーザーガイドの「",
+      "step-1-3": "サーバ接続ガイド",
+      "step-1-4": "」を参照してください。",
+      "step-2-1": "以下に示す「ログ収集agentの削除コマンド」をサーバ上で実行します。クリップボードにコピーする機能を利用すると便利です。",
+      "step-2-2": "ログ収集agentの削除コマンド",
+      "step-2-3": "クリップボードにコピーする",
+      "step-3-1": "「ログ収集agentのインストールコマンド」をサーバ上で実行すると、自動的にagentが削除され、ログの収集が停止されます。",
+      "step-3-2": "設定が完了すると、以下のようなメッセージが出力されます。",
+      "step-3-3": "ログ収集agentの削除コマンドの実行結果",
+      "step-3-4": "Remove Agent",
+      "close": "閉じる"
+    },
+    "noserverDialog": {
+      "title": "利用ガイド",
+      "p-1": "現在保有しているサーバ商品がありません。",
+      "p-2-1": "まず、サーバを生成した後、上部の<span class=\"text-light-blue\">収集の申し込み</span>ボタンをクリックして、Cloud Log Analyticサービスを開始します。",
+      "btn-1": "サーバを生成する"
+    },
+    "notApplyDialog": {
+      "title": "利用ガイド",
+      "p-1": "Cloud Log Analyticsサービスは、NAVERクラウドプラットフォームのサーバをはじめとする様々な商品の使用中に発生するログと、ユーザーが指定したログを収集・保存して、統合して検索及び分析を行うことができます。",
+      "p-2": "利用申し込みボタンをクリックして、CLAサービスをお申し込みください。",
+      "btn-1": "Subscription"
+    },
+    "cdbVerifyDialog": {
+      "title": "通知",
+      "p": "英字、数字、特殊文字（-）のみを許可し、最初の文字は英字でなければなりません。",
+      "btn": "閉じる"
+    },
+    "serverIpDialog": {
+      "p": "数字と「.」のみ入力可能です"
+    }
+  },
+  "dashboard": {
+    "logCountTotal": "全体Log Count",
+    "logCountLatest": "直近のLog発生量（1M）",
+    "productionInfo": "商品情報",
+    "storageCapacity": "ストレージ容量",
+    "typeCapacity": "Type別の使用容量",
+    "error-1": "データの取得中にエラーが発生しました。",
+    "error-2": "一時的な現象か、ネットワークの問題である可能性があるため、後ほど再度お試しください。引き続き問題が発生する場合は、語客センターまでお問い合わせください。",
+    "error-3": "収集されたデータがありません。",
+    "logCountGlance": "毎日のLog Count",
+    "typeLogOccurrence": "Type別のLog発生状況",
+    "serverLogOccurrence": "Server別のLog発生状況"
+  },
+  "exportlog": {
+    "settingBtn": "自動エクスポートを設定",
+    "offBtn": "自動エクスポートを解除",
+    "autoSetupHistory": {
+      "tabName": "自動設定の履歴",
+      "thead": {
+        "executionTime": "実行時刻",
+        "executionState": "設定/解除",
+        "region": "リージョン",
+        "targetBucket": "対象Bucket",
+        "exportLogType": "Exportログの種類"
+      }
+    },
+    "exportExecutionHistory": {
+      "tabName": "エクスポート実行履歴",
+      "thead": {
+        "type": "タイプ",
+        "folderName": "フォルダ名",
+        "progress": "進行率",
+        "status": "状態",
+        "description": "説明",
+        "settingTime": "設定時刻"
+      }
+    },
+    "complete": "コンプリート",
+    "fail": "失敗する",
+    "Auto": "自動",
+    "Manual": "手動",
+    "exportStatus": {
+      "on": "設定",
+      "off": "解除"
+    },
+    "autoMsg": "検索結果をObject StorageにExportします。<br>Exportする対象バケットを選択します。もしバケットが生成されない場合は、<br>Object Storage商品のバケットを先に生成してください。<br>Exportされたファイルは、選択したバケットのCLAExportフォルダに保存されます。",
+    "off-1": "設定された自動エクスポートの既存の情報が解除され、翌日から適用されます。",
+    "off-2": "解除するには、解除するボタンを押してください。",
+    "off-btn": "設定を解除する",
+    "logSucMsg": "自動エクスポートの設定が解除されました。"
+  },
+  "search": {
+    "logType": "Logの種類",
+    "event": "イベント",
+    "timeOccurrence": "発生時刻",
+    "serverName": "Server名",
+    "logContent": "Log 内容",
+    "tips-1": "時間情報の入力に誤りがあります。開始時刻は終了時刻より以前に設定してください。",
+    "tips-2": "時刻形式に合わせて入力してください（00:00～23:59）。",
+    "error-1": "ご迷惑をおかけして申し訳ありません。",
+    "error-2": "このページが表示される原因は、次のとおりです。",
+    "error-3": "- 検索結果が多すぎます。（1万件以上）",
+    "error-4": "詳細検索は検索範囲を変更して使用してください。",
+    "nearest": "最近",
+    "min": "分",
+    "hours": "時間",
+    "directInput": "直接入力",
+    "objectStorage": {
+      "exportBtn": "Object Storageにエクスポート",
+      "tip-1": "Object Storageを利用する場合は、API認証キーを準備する必要があります。<br>API認証キーは、<span class='text-light-blue'>ポータル>マイページ>アカウント管理>認証キー管理</span>メニューから生成できます。",
+      "tip-2": "検索結果をObject StorageにExportします。",
+      "tip-3": "Exportする対象バケットを選択します。もしバケットが生成されない場合は、Object Storage商品のバケットを先に生成してください。",
+      "tip-4": "Exportされたファイルは、選択したバケットのCLAExportフォルダに保存されます。",
+      "bucketBtn": "バケットを選択してください",
+      "linkToLogBtn": "Export Logへ",
+      "sendResultTip-1": "ObjectStorageの送信が行われています。",
+      "sendResultTip-2": "進行状況は、Export Logメニューから確認できます。",
+      "sendResultTip-3": "現在、システムの使用量が多いです。",
+      "sendResultTip-4": "しばらくして、もう一度やり直してください。",
+      "selectLog": "ログの種類を選択"
+    },
+    "logOccurrenceTime": "Log発生時刻",
+    "no-region": "登録されたリージョンがありません。",
+    "no-bucket": "作成されたバケットがありません。",
+    "fileStorage": {
+      "tipTitle": "案内"
+    }
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "locales": {
+    "en-US": "English",
+    "ko-KR": "한국어",
+    "zh-CN": "中文",
+    "ja-JP": "日本語"
+  },
+  "pagination": {
+    "rows": "View {countOfRow} rows"
+  },
+  "alert": {
+    "defaultTitle": "Alert",
+    "defaultMessage": "Message"
+  },
+  "time": {
+    "units": {
+      "minute": "min. | min.",
+      "hour": "hr. | hr.",
+      "day": "day | days",
+      "second": "second | seconds",
+      "week": "week | weeks",
+      "month": "month | months"
+    }
+  },
+  "date": {
+    "yearMonth": "{month}. {year}",
+    "year": " ",
+    "month": " ",
+    "mon": "Mon",
+    "tues": "Tue",
+    "wed": "Wed",
+    "thur": "Thur",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "months": {
+    "1": "Jan",
+    "2": "Feb",
+    "3": "Mar",
+    "4": "Apr",
+    "5": "May",
+    "6": "Jun",
+    "7": "Jul",
+    "8": "Aug",
+    "9": "Sep",
+    "10": "Oct",
+    "11": "Nov",
+    "12": "Dec"
+  },
+  "confirm": {
+    "yes": "Yes",
+    "no": "No",
+    "save": "Save",
+    "cancel": "Cancel",
+    "apply": "Apply",
+    "delete": "Delete",
+    "preview": "Preview"
+  },
+  "actions": {
+    "edit": "Edit",
+    "modify": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "create": "Create",
+    "add": "Add",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "enable": "Enable",
+    "disable": "Disable",
+    "search": "Search",
+    "copyURL": "Copy URL"
+  },
+  "enabled": {
+    "true": "Enabled",
+    "false": "Disabled"
+  },
+  "public": {
+    "gate": {
+      "projectName": "Cloud Log Analytics (CLA)",
+      "seeAll": "View more",
+      "learnMore": "Learn more",
+      "download": "Download",
+      "refresh": "Refresh",
+      "help": "Help",
+      "region": "Region Integration Service",
+      "subTitle": "A system that stores logs that occur while you're using NAVER CLOUD PLATFORM's services and provides analytics data about them.",
+      "subTitleDescription": "Store logs that occur while you're using NAVER CLOUD PLATFORM's services including Server and analyze them.<br>Lookup and download log data you need, to effectively manage logs.",
+      "describeTag01": "Easy to use",
+      "describeTag02": "Real-time log collection and lookup",
+      "describeTag03": "Effective log management",
+      "describeTag04": "Various additional features (to be provided later)",
+      "noticeTitle": "Improvements"
+    },
+    "bytes": "bytes",
+    "necessary": "Indicates required fields.",
+    "noDataInfo": "No data found.",
+    "success": "Success",
+    "error": "Error",
+    "warn": "Warning",
+    "filter": "Filter",
+    "selectedAll": "All"
+  },
+  "status": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "validate": {
+    "customDefault": "The field must be a valid value.",
+    "customRequired": "The field is required.",
+    "customIn": "The field must be a valid value.",
+    "customMax": "The field may not be greater than {param} characters.",
+    "customMin": "The field must be at least {param} characters.",
+    "customMaxValue": "The field must be less than {param}.",
+    "customMinValue": "The field must be more than {param}.",
+    "customExt": "The field must be a valid {param} file.",
+    "customSize": "The file size must be less than {param}KB.",
+    "namePattern": "Only English alphabet, numbers and underscore (_) are allowed.",
+    "domain": "Invalid format.",
+    "numMax": "Should be less than {param}.",
+    "byteMax": "Can be up to {param} characters.",
+    "numEn": "Only allowed English, numbers, special characters '-' and must begin with English.",
+    "ipAddress": "only allowed numbers, special characters '.'.",
+    "numEnKorea": "Only allowed English, Korean, numbers, special characters '-' and must begin with English."
+  },
+  "error": {
+    "home": "Go to Home",
+    "error404": {
+      "title": "Resource Not Found",
+      "desc_1": "The page cannot be displayed due to an invalid page address or internal error.",
+      "desc_2": "We're sorry for your inconvenience.",
+      "desc_3": "Please check if the address you entered is correct.",
+      "desc_4": "If the problem persists, contact our Help Center (1544-5876)."
+    },
+    "error403": {
+      "title": "Forbidden Error",
+      "desc_1": "This sub account is not authorized and can not be operated.",
+      "desc_2": "Please contact your Sub Account representative to request additional MANAGER or Action privileges for your product.",
+      "desc_3": "Need add additional permission list"
+    },
+    "error401": {
+      "title": "Request Error",
+      "desc_1": "The page cannot be displayed due to an invalid page address or internal error.",
+      "desc_2": "We're sorry for your inconvenience.",
+      "desc_3": "Please check if the address you entered is correct.",
+      "desc_4": "If the problem persists, contact our Help Center (1544-5876)."
+    },
+    "error500": {
+      "title": "Internal Server Error",
+      "desc_1": "The page cannot be displayed due to an invalid page address or internal error.",
+      "desc_2": "We're sorry for your inconvenience.",
+      "desc_3": "Please check if the address you entered is correct.",
+      "desc_4": "If the problem persists, contact our Help Center (1544-5876)."
+    },
+    "errorTitle": "Notification",
+    "errorMessage": "<strong>Please try again later.</strong><br>The service is temporarily unavailable.<br>If this failure persists, contact our Help Center."
+  },
+  "common": {
+    "enable": "Product Enable"
+  },
+  "home": {
+    "description": "Please log in again to continue using the service.",
+    "btn": "Login",
+    "apply-p-1": "You don’t have a subscription to Cloud Log Analytics.",
+    "apply-p-2": "Please click <em>[Request]</em> to request the Cloud Log Analytics service.",
+    "apply-btn": "Request",
+    "release-p-1": "Click [Disable Product] to cancel your subscription to Cloud Log Analytics.",
+    "release-p-2": "If you agree to cancel it, the service is no longer provided, ",
+    "release-p-3": "and all the data saved while you’re using the service will be also deleted.",
+    "release-p-4": "Before canceling the service, you should delete the settings and the agents you've installed to avoid unnecessary traffic.",
+    "release-btn": "Disable Product",
+    "modal-tips-title": "Subscription",
+    "modal-tips-1": "Your request has been successfully submitted.",
+    "modal-tips-2": "All the data saved while you’re using the service will be deleted.",
+    "modal-tips-3": "Do you want to continue?"
+  },
+  "management": {
+    "settingBtn": "Add settings",
+    "deleteBtn": "Delete settings",
+    "excel": "Download",
+    "questionMark": "Help",
+    "serverName": "Server name",
+    "serverStatus": "Status",
+    "privateIP": "Private IP address",
+    "zone": "ZONE",
+    "serverImageName": "Server image name",
+    "cloudDbServiceName": "DB Service name",
+    "dbRole": "DB Role",
+    "dbServerName": "DB Server name",
+    "dbServerType": "DB Server type",
+    "dataStorage": "Data storage",
+    "dbStatus": "Status",
+    "settingStatus": "Setting status",
+    "searchPlaceholder": "Type to search",
+    "notSet": "Off",
+    "createDate": "Created",
+    "operateDate": "Started",
+    "logSettingDate": "Log collection setting",
+    "publicIP": "Public IP address",
+    "logAgentVersion": "Log collection agent version",
+    "logTypeNumber": "Log collection types",
+    "configKey": "Install Key",
+    "uncollectedStatus": "Not collected",
+    "settingComplete": "On",
+    "logSetting": {
+      "title": "Add log collection settings",
+      "serverName": "Server name",
+      "selectAll": "Select all",
+      "template": "Log Template",
+      "logType": "Log Type",
+      "logPath": "Log Path",
+      "ok": "OK",
+      "cancel": "Cancel",
+      "templateDefault": "Select template",
+      "typeDefault": "Select log type",
+      "tips-1": "Path/file access error. Please enter a valid log path.",
+      "tips-2": "The same log type/path already exists.",
+      "tips-3": "Only lowercase English alphabet and underscroe (_) are allowed, and it can be up to 20 characters in length.",
+      "tips-4": "Select a template, and it is automatically added. If you select [Custom log], enter a log type and log path and click [Add].",
+      "feesInfo": "Cloud Log Analytics fee is charged by combining the log storage fee and API call fee."
+    },
+    "osMap": {
+      "windowsServer1": "[English] Windows Server 2008 R2 with SP1 (64-bit)",
+      "windowsServer2": "[English] Windows Server 2016 (64-bit)",
+      "windowsServer3": "[English] Windows Server 2012(64bit) R2"
+    },
+    "logDelete": {
+      "title": "Delete log collection settings",
+      "ok": "OK",
+      "cancel": "Cancel"
+    },
+    "settingGuide": {
+      "title": "How to install the CLA agent in your server",
+      "desc-1": "The log collection settings have been added.",
+      "desc-2": "In order to start collecting logs, you should install the agent in your servers as described below.",
+      "desc-3": "Please note that logs are not collected from your servers with no agents installed even if you've configured log collection settings on the console.",
+      "step-1-1": "Log in to your server from which you want to collect logs.",
+      "step-1-2": "For more information on how to connect to servers, refer to \"",
+      "step-1-3": "Connecting to Servers",
+      "step-1-4": "\" in User Guide.",
+      "step-2-1": "Execute the \"command to install the log collection agent\" shown below. Click [Copy to clipboard] to easily copy the command.",
+      "step-2-2": "Command to install the log collection agent",
+      "step-2-3": "Copy to clipboard",
+      "step-2-4-1": "Please run ",
+      "step-2-4-2": " if you choose Windows 2008.",
+      "step-3-1": "When the \"command to install the log collection agent\" is executed in your server, the agent is automatically downloaded, installed and set up.",
+      "step-3-2": "When the agent has been successfully installed, the following message is displayd.",
+      "step-3-3": "Command execution result   ",
+      "step-3-4": "================= Finish Installation =================",
+      "step-4-1": "Check if logs are successfully collected from the server in the Dashboard page of Cloud Log Analytics.",
+      "step-4-2": "If logs are not collected, check if an error occurred while installing the agent and go back to Step 2.",
+      "close": "Close",
+      "windowsOthers": " over 2012"
+    },
+    "deleteGuide": {
+      "title": "How to stop collecting logs from your servers",
+      "desc-1": "The log collection settings have been deleted.",
+      "desc-2": "In order to stop collecting logs from your servers, you must remove the log collection agent from your servers.",
+      "desc-3": "Please note that the agent still running in your server can cause unnecessary traffic even if you've disabled the log collection settings on the console.",
+      "step-1-1": "Log in to your server from which logs have been collected.",
+      "step-1-2": "For more information on how to connect to servers, refer to \"",
+      "step-1-3": "Connecting to Servers",
+      "step-1-4": "\" in User Guide.",
+      "step-2-1": "Execute the \"command to remove the log collection agent\" shown below. Click [Copy to clipboard] to easily copy the command.",
+      "step-2-2": "Command to remove the log collection agent ",
+      "step-2-3": "Copy to clipboard",
+      "step-3-1": "\"When the \"command to remove the log collection agent\" is executed in your server, the agent is automatically removed from your server and logs are no longer collected.",
+      "step-3-2": "When the agent has been successfully removed, the following message is displayed.",
+      "step-3-3": "Command execution result    ",
+      "step-3-4": "Remove Agent",
+      "close": "Close"
+    },
+    "noserverDialog": {
+      "title": "User Guide",
+      "p-1": "You have no servers.",
+      "p-2-1": "Create a server first, and then click <span class=\"text-light-blue\">[Add settings]</span> to start the Cloud Log Analytics service.",
+      "btn-1": "Create a server"
+    },
+    "notApplyDialog": {
+      "title": "User Guide",
+      "p-1": "Cloud Log Analytics helps you collect and store logs from various NAVER CLOUD PLATFORM services including Server as well as user-defined logs to easily view and analyze them.",
+      "p-2": "Please click [Request] to request the CLA service.",
+      "btn-1": "Subscription"
+    },
+    "cdbVerifyDialog": {
+      "title": "Notice",
+      "p": "Only allowed English, numbers, special characters '-' and must begin with English",
+      "btn": "Close"
+    },
+    "serverIpDialog": {
+      "p": "only allowed numbers, special characters '.'"
+    }
+  },
+  "dashboard": {
+    "logCountTotal": "Total log count",
+    "logCountLatest": "Recent log count (1M)",
+    "productionInfo": "Service info",
+    "storageCapacity": "Storage",
+    "typeCapacity": "Storage by type",
+    "error-1": "An error occurred while getting data.",
+    "error-2": "It could be a temporary problem or a network issue. Please try again later. If the problem persists, contact our Help Center.",
+    "error-3": "No data found.",
+    "logCountGlance": "Daily log count",
+    "typeLogOccurrence": "Log count by type",
+    "serverLogOccurrence": "Log count by server"
+  },
+  "exportlog": {
+    "settingBtn": "Auto export settings",
+    "offBtn": "Auto export close",
+    "autoSetupHistory": {
+      "tabName": "Auto setup history",
+      "thead": {
+        "executionTime": "Execution time",
+        "executionState": "On / Off",
+        "region": "Region",
+        "targetBucket": "Target Bucket",
+        "exportLogType": "Export Log Type"
+      }
+    },
+    "exportExecutionHistory": {
+      "tabName": "Export execution history",
+      "thead": {
+        "type": "Type",
+        "folderName": "Folder Name",
+        "progress": "Progress",
+        "status": "Status",
+        "description": "Description",
+        "settingTime": "Setting time"
+      }
+    },
+    "complete": "complete",
+    "fail": "fail",
+    "Auto": "Auto",
+    "Manual": "Manual",
+    "exportStatus": {
+      "off": "Off",
+      "on": "On"
+    },
+    "autoMsg": "Export search results to Object Storage.<br>Select the target bucket to be exported, and if no bucket has been created<br>Please first create a bucket from the Object Storage product.<br>The exported file is saved in the CLAExport folder of the selected bucket.",
+    "off-1": "Existing auto export information will be released and will be applied from the next day.",
+    "off-2": "if you want to cancel, please click on the Cancel Setting button.",
+    "off-btn": "Cancel Setting",
+    "logSucMsg": "Auto export setting is turned off."
+  },
+  "search": {
+    "logOccurrenceTime": "Time generated",
+    "logType": "Log type",
+    "event": "Event",
+    "timeOccurrence": "Time generated",
+    "serverName": "Server name",
+    "logContent": "Log",
+    "tips-1": "Input error. The start time must be before the end time.",
+    "tips-2": "Please enter a valid time (00:00-23:59).",
+    "error-1": "We’re sorry for your inconvenience.",
+    "error-2": "This page is displayed for the following reason.",
+    "error-3": "- Too many search results (more than 10,000 results)",
+    "error-4": "Refine your search by changing the search criteria.",
+    "nearest": "Nearest",
+    "min": "Min",
+    "hours": "Hr",
+    "directInput": "Direct Input",
+    "objectStorage": {
+      "exportBtn": "Export Object Storage",
+      "tip-1": "If you want to use Object Storage, you need to prepare an API authorization key.<br>You can create an API authorization key in the <span class='text-light-blue'> portal> My Page> Manage Accounts> Manage Authentication Keys  </span>menu.",
+      "tip-2": "Set the type of log to export and the target bucket. (The created bucket must exist before it can be configured)",
+      "tip-3": "Automatically export data from the next day based on when the setting is completed.",
+      "tip-4": "The exported file is saved by creating a folder by date in the target bucket.",
+      "bucketBtn": "Please select a bucket",
+      "linkToLogBtn": "Export Log Shortcut",
+      "sendResultTip-1": "Export Object Storage is being executed normally.",
+      "sendResultTip-2": "You can check the in-progress Log from Export Log.",
+      "sendResultTip-3": "There are too many users in the system.",
+      "sendResultTip-4": "Please try it again after a while.",
+      "selectLog": "Select log type"
+    },
+    "no-region": "No region registered.",
+    "no-bucket": "No bucket created.",
+    "fileStorage": {
+      "tipTitle": "Guide"
+    }
+  }
+}
