@@ -5,7 +5,11 @@
       <!-- <slot name="menu"></slot> -->
       <el-dropdown-item
         v-for="lang in options"
-        :key="lang.value" :command="lang.value" :class="{ 'checked': lang.value === lang }">{{ lang.label }}</el-dropdown-item>
+        :key="lang.value"
+        :command="lang.value"
+        :class="{ 'checked': lang.value === current }">
+        {{ lang.label }}
+      </el-dropdown-item>
     </el-dropdown-menu>
   </el-dropdown>
 </template>
@@ -18,6 +22,10 @@ import Component from 'vue-class-component';
   name: 'Dropdown', // 组件名称
   props: {
     trigger: {
+      type: String,
+      default: '',
+    },
+    current: {
       type: String,
       default: '',
     },
@@ -35,6 +43,12 @@ export default class Dropdown extends Vue {
 </script>
 
 <style lang="scss" scope>
+  .el-dropdown-menu {
+    .checked {
+      background-color: #66b1ff;
+      color: #ecf5ff;
+    }
+  }
   .el-dropdown-link {
     cursor: pointer;
     color: #409EFF;

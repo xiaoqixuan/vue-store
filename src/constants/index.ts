@@ -1,8 +1,6 @@
-export const LANGUAGE_MAP = {
-  'en-US': 'English',
-  'zh-CN': '中文',
-  'pt-BR': 'Português',
-};
+import Cookie from 'js-cookie';
+
+export const LANGUAGE = Cookie.get('lang') || 'en-US';
 
 export const LANGUAGE_LIST = [
   { value: 'en-US', label: 'English' },

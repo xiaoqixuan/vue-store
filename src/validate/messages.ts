@@ -1,71 +1,21 @@
+import VueI18n from 'vue-i18n';
+import { LANGUAGE } from '@/constants';
+
 const en = require('@/i18n/en-US.json').validate;
 const cn = require('@/i18n/zh-CN.json').validate;
+const pt = require('@/i18n/pt-BR.json').validate;
+
+const i18n = new VueI18n({
+  locale: LANGUAGE,
+  messages: {
+    'en-US': en,
+    'zh-CN': cn,
+    'pt-BR': pt,
+  },
+});
 
 export const messages = {
-  en: {
-    messages: {
-      _default: () => en.customDefault,
-      regex: () => en.customDefault,
-      required: () => en.customRequired,
-      in: () => en.customIn,
-      max: (field, params) => (en.customMax).replace('{param}', params[0]),
-      min: (field, params) => (en.customMin).replace('{param}', params[0]),
-      max_value: (field, params) => (en.customMaxValue).replace('{param}', params[0]),
-      min_value: (field, params) => (en.customMinValue).replace('{param}', params[0]),
-      ext: (field, params) => (en.customExt).replace('{param}', params[0]),
-      size: (field, params) => (en.customSize).replace('{param}', params[0]),
-      customRegex: (field, params) => params[0].message,
-      englishStart: () => en.englishStart,
-      englishStartUnderline: () => en.englishStartUnderline,
-      englishStartMidline: () => en.englishStartMidline,
-      lowerCaseEnglishStart: () => en.lowerCaseEnglishStart,
-      englishOrNumbersEnd: () => en.englishOrNumbersEnd,
-      stringLength: (field, params) => en.stringLength.replace('{param0}', params[0]).replace('{param1}', params[1]),
-      byteSize: (field, params) => en.byteSize.replace('{param}', params[0]),
-      startNumberExceed: () => en.startNumberExceed,
-      isExist: (field, params) => en.isExist.replace('{param}', params[0]),
-      multiple: (field, params) => en.multiple.replace('{param}', params[0]),
-      isJson: () => en.invalidJson,
-      numberBetween: () => en.numberBetween,
-      integerMultiple: () => en.storageErr,
-      initScriptName: (field, params) => en.initScriptName,
-      utf8: (field, params) => en.utf8,
-      checkInitScriptIsExist: (field, params, data) => en.isExist.replace('{param}', data.scriptName),
-      checkInitScriptByteSize: (field, params) => en.initScriptByteSize,
-      storageSize: (field, params, data) => en.inValidSize.replace('{param}', data.size),
-    },
-  },
-  cn: {
-    messages: {
-      _default: () => cn.customDefault,
-      regex: () => cn.customDefault,
-      required: () => cn.customRequired,
-      in: () => cn.customIn,
-      max: (field, params) => (cn.customMax).replace('{param}', params[0]),
-      min: (field, params) => (cn.customMin).replace('{param}', params[0]),
-      max_value: (field, params) => (cn.customMaxValue).replace('{param}', params[0]),
-      min_value: (field, params) => (cn.customMinValue).replace('{param}', params[0]),
-      ext: (field, params) => (cn.customExt).replace('{param}', params[0]),
-      size: (field, params) => (cn.customSize).replace('{param}', params[0]),
-      customRegex: (field, params) => params[0].message,
-      englishStart: () => cn.englishStart,
-      englishStartUnderline: () => cn.englishStartUnderline,
-      englishStartMidline: () => cn.englishStartMidline,
-      lowerCaseEnglishStart: () => cn.lowerCaseEnglishStart,
-      englishOrNumbersEnd: () => cn.englishOrNumbersEnd,
-      stringLength: (field, params) => cn.stringLength.replace('{param0}', params[0]).replace('{param1}', params[1]),
-      byteSize: (field, params) => cn.byteSize.replace('{param}', params[0]),
-      startNumberExceed: () => cn.startNumberExceed,
-      isExist: (field, params) => cn.isExist.replace('{param}', params[0]),
-      multiple: (field, params) => cn.multiple.replace('{param}', params[0]),
-      isJson: () => cn.invalidJson,
-      numberBetween: () => cn.numberBetween,
-      integerMultiple: () => cn.storageErr,
-      initScriptName: (field, params) => cn.initScriptName,
-      utf8: (field, params) => cn.utf8,
-      checkInitScriptIsExist: (field, params, data) => cn.isExist.replace('{param}', data.scriptName),
-      checkInitScriptByteSize: (field, params) => cn.initScriptByteSize,
-      storageSize: (field, params, data) => cn.inValidSize.replace('{param}', data.size),
-    },
-  },
+  required: i18n.tc('customRequired'),
+  ipAddress: i18n.tc('ipAddress'),
+  initScriptName: i18n.tc('domain'),
 };

@@ -1,5 +1,9 @@
 <template>
-  <Dropdown trigger="click" :options="options" @changeVal="changeLanguage">
+  <Dropdown
+    trigger="click"
+    :current="lang"
+    :options="options"
+    @changeVal="changeLanguage">
     <div slot="link">
       <span class="el-dropdown-link">
         {{ $tc('locales.language')}}
@@ -32,10 +36,6 @@ export default class Language extends Vue {
     return this.$store.state.lang;
   }
 
-  set lang(lang: string) {
-    this.lang = lang;
-  }
-
   get options(): Array<any> {
     return LANGUAGE_LIST;
   }
@@ -45,19 +45,8 @@ export default class Language extends Vue {
       return;
     }
 
-    this.lang = lang;
     Cookie.set('lang', lang);
     location.reload();
   }
 }
 </script>
-
-<style lang="scss" scope>
-  .el-dropdown-link {
-    cursor: pointer;
-    color: #409EFF;
-  }
-  .el-icon-arrow-down {
-    font-size: 12px;
-  }
-</style>

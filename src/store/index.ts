@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
+import { LANGUAGE } from '@/constants';
 import mutations from './mutations';
 import getters from './getters';
 
@@ -11,7 +12,7 @@ export default new Vuex.Store({
   mutations,
   getters,
   state: {
-    lang: 'en-US',
+    lang: LANGUAGE,
     routerBase: '',
   },
   modules: {

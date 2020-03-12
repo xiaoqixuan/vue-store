@@ -106,7 +106,7 @@
     "disabled": "Disabled"
   },
   "validate": {
-    "customDefault": "The field must be a valid value.",
+    "customDefault": "O campo deve ser um valor válido.",
     "customRequired": "The field is required.",
     "customIn": "The field must be a valid value.",
     "customMax": "The field may not be greater than {param} characters.",
