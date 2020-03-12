@@ -1,9 +1,9 @@
 {
   "locales": {
     "en-US": "English",
-    "ko-KR": "한국어",
     "zh-CN": "中文",
-    "ja-JP": "日本語"
+    "pt-BR": "Português",
+    "language": "Choose a language"
   },
   "pagination": {
     "rows": "View {countOfRow} rows"

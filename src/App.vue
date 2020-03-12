@@ -1,14 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <keep-alive>
-      <router-view v-if="$route.meta.keepAlive"></router-view>
-    </keep-alive>
-
-    <router-view v-if="!$route.meta.keepAlive"></router-view>
+    <transition name="fade" mode="out-in">
+      <router-view class="store-body"></router-view>
+    </transition>
   </div>
 </template>
 
@@ -27,7 +21,7 @@ export default class App extends Vue {}
 </script>
 
 <style lang="scss">
-@import 'scss/reset.scss';
+@import 'scss/common.scss';
 
 #app {
   font-family: $fontStyle;

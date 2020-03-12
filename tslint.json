@@ -6,8 +6,7 @@
       "src/**/*.js",
       "node_modules/**/*",
       "src/router/**",
-      "src/utils/**",
-      "src/api/**"
+      "src/utils/array.ts"
     ]
   },
   "rules": {

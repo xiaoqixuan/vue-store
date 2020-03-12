@@ -1,0 +1,38 @@
+@import "reset.scss";
+
+.w-150 {
+  width: 150px !important;
+}
+
+.valid-control {
+  width: 100%;
+  .el-input {
+    border-radius: 4px;
+  }
+  span {
+    display: block;
+  }
+  &.invalid {
+    .el-input, span {
+      color: $color-danger;
+    }
+    .el-input {
+      border: 1px $color-danger solid;
+    }
+  }
+  &.valid {
+    .el-input, span {
+      color: $color-safe;
+    }
+    .el-input {
+      border: 1px $color-safe solid;
+    }
+  }
+}
+
+.el-dropdown {
+  .checked {
+    background-color: #ecf5ff;
+    color: #66b1ff;
+  }
+}

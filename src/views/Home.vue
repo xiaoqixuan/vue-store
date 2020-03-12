@@ -1,28 +1,44 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" @click="testFunction" src="../assets/logo.png">
-    <el-button @click="changeLanguage"> {{ $tc('confirm.save') }}</el-button>
+    <img alt="Vue logo" src="../assets/logo.png">
+    <el-button @click="testFunction">testAPi</el-button>
+    <Language></Language>
+
+    <ValidationProvider name="initScriptName" rules="initScriptName" v-slot="{ classes, errors }">
+      <div class="valid-control" :class="classes">
+        <el-input v-model="initScriptName" type="text" placeholder="请输入内容" class="w-150"></el-input>
+        <span>{{ errors[0] }}</span>
+      </div>
+    </ValidationProvider>
+    <ValidationProvider name="initScriptName" rules="positive" v-slot="{ classes, errors }">
+      <div class="valid-control" :class="classes">
+        <el-input v-model="initScriptName" type="text" placeholder="请输入内容" class="w-150"></el-input>
+        <span>{{ errors[0] }}</span>
+      </div>
+    </ValidationProvider>
     <HelloWorld msg="bb"/>
   </div>
 </template>
 
 <script lang="ts">
-import Cookie from 'js-cookie';
 import Vue from 'vue';
 import Component from 'vue-class-component';
 import HelloWorld from '@/components/HelloWorld.vue';
+import Language from '@/components/Language.vue';
 import $httpUser from '@/api/user';
 
 @Component({
   name: 'Home', // 组件名称
   components: { // 引入的组件components
     HelloWorld,
+    Language,
   },
 })
 export default class Home extends Vue {
   // data
   bb: string = 'ddddddd';
-  lang: string = 'ja-JP';
+  lang: string = 'pt-BR';
+  initScriptName: string = '';
 
   get username() {
     return this.$store.state.user.username;
@@ -38,11 +54,6 @@ export default class Home extends Vue {
       .catch((response = {}) => {
         alert(`===========${response}===============`);
       });
-  }
-
-  changeLanguage() {
-    Cookie.set('lang', 'ko-KR');
-    location.reload();
   }
 }
 </script>

@@ -1,9 +1,9 @@
 {
   "locales": {
+    "language": "选择语言",
     "en-US": "English",
-    "ko-KR": "한국어",
     "zh-CN": "中文",
-    "ja-JP": "日本語"
+    "pt-BR": "Português"
   },
   "pagination": {
     "rows": "显示{countOfRow}行"

@@ -1,9 +1,9 @@
 {
   "locales": {
     "en-US": "English",
-    "ko-KR": "한국어",
     "zh-CN": "中文",
-    "ja-JP": "日本語"
+    "pt-BR": "Português",
+    "language": "Escolha o idioma"
   },
   "pagination": {
     "rows": "{countOfRow} 行を表示"
@@ -49,7 +49,7 @@
     "12": "Dec"
   },
   "confirm": {
-    "yes": "はい",
+    "yes": "OK",
     "no": "いいえ",
     "save": "保存",
     "cancel": "Cancel",
@@ -116,7 +116,7 @@
     "customExt": "The field must be a valid {param} file.",
     "customSize": "The file size must be less than {param}KB.",
     "namePattern": "Only English alphabet, numbers and underscore (_) are allowed.",
-    "domain": "Invalid format.",
+    "domain": "Formato Inválido.",
     "numMax": "Should be less than {param}.",
     "byteMax": "Can be up to {param} characters.",
     "numEn": "英字、数字、特殊文字（-）のみを許可し、最初の文字は英字でなければなりません。",

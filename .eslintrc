@@ -33,7 +33,14 @@
     "import/no-extraneous-dependencies": [2, { "devDependencies": true }],
     "import/no-unresolved": "off",
     "arrow-body-style":"off",
-    "prefer-promise-reject-errors": "off"
+    "prefer-promise-reject-errors": "off",
+    "arrow-parens": "off",
+    "max-len": "off",
+    "operator-linebreak": "off",
+    "no-control-regex": "off",
+    "no-unused-vars": "warn",
+    "no-param-reassign": "warn",
+    "no-underscore-dangle": "warn"
   },
   "settings": {
     "import/parsers": {
