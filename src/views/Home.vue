@@ -20,6 +20,7 @@
 <script lang="ts">
 import Vue from 'vue';
 import Component from 'vue-class-component';
+import commonMixin from '@/mixins/common';
 import Layout from '@/layout/Layout.vue';
 import HelloWorld from '@/components/HelloWorld.vue';
 import Language from '@/components/Language.vue';
@@ -32,8 +33,10 @@ import $httpUser from '@/api/user';
     HelloWorld,
     Language,
   },
+  mixins: [commonMixin],
 })
 export default class Home extends Vue {
+  status: Record<string, boolean>;
   // data
   bb: string = 'ddddddd';
   lang: string = 'pt-BR';
