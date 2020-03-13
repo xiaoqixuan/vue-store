@@ -17,7 +17,7 @@ const cdn = {
     vue: 'Vue',
     vuex: 'Vuex',
     'vue-router': 'VueRouter',
-    'axios': 'axios',
+    axios: 'axios',
   },
   // cdn的css链接
   css: [],
@@ -26,7 +26,7 @@ const cdn = {
     'https://cdn.bootcss.com/vue/2.6.10/vue.min.js',
     'https://cdn.bootcss.com/vuex/3.1.2/vuex.min.js',
     'https://cdn.bootcss.com/vue-router/3.1.3/vue-router.min.js',
-    'https://cdn.bootcss.com/axios/0.19.2/axios.min.js'
+    'https://cdn.bootcss.com/axios/0.19.2/axios.min.js',
   ],
 };
 
@@ -34,7 +34,7 @@ const pathRewrite = {};
 pathRewrite['/cla2/api/v1'] = '/cla/api/v1';
 
 module.exports = {
-  publicPath: '/',
+  publicPath: './',
   devServer: {
     proxy: {
       '/api/v1': {

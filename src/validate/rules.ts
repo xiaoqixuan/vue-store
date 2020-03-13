@@ -1,5 +1,3 @@
-import { getStringSize } from '@/utils';
-
 export const rules = {
   required: {
     validate: (value: string): boolean => !!value,

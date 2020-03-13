@@ -1,4 +1,6 @@
-import { bankCardReg, emailReg, faxReg, passwordReg, phoneReg, postalReg, qqReg, telephoneReg } from './reg';
+import {
+  bankCardReg, emailReg, faxReg, passwordReg, phoneReg, postalReg, qqReg, telephoneReg,
+} from './reg';
 
 // 固定电话的验证
 export const testTelephone = (rule: any, value: string, callback: any) => {

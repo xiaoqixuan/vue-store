@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import './Date';
+// import './Date';
 
 interface RegisterEvent {
   (
@@ -78,15 +78,26 @@ export interface URLMeta {
   hash: string;
 }
 
+const defaultVal: URLMeta = {
+  protocol: '',
+  host: '',
+  hostname: '',
+  port: '',
+  pathname: '',
+  search: '',
+  searchObject: {},
+  hash: '',
+};
+
 export const parseURL = (url: string): URLMeta => {
   if (typeof document === 'undefined') {
-    return {} as URLMeta;
+    return defaultVal;
   }
 
   const parser: HTMLAnchorElement = document.createElement('a');
   const searchObject: { [key: string]: string } = {};
-  let queries: Array<string>;
-  let split: Array<string>;
+  let queries: Array<string> = [];
+  let split: Array<string> = [];
 
   parser.href = url;
   queries = parser.search.replace(/^\?/, '').split('&');
@@ -149,7 +160,7 @@ export const getTimeZone = () => {
   const offset = new Date().getTimezoneOffset();
   const o = Math.abs(offset);
 
-  return `${ (offset < 0 ? '+' : '-') }${`00${Math.floor(o / 60)}`.slice(-2)}:${`00${Math.floor(o % 60)}`.slice(-2)}`;
+  return `${(offset < 0 ? '+' : '-')}${`00${Math.floor(o / 60)}`.slice(-2)}:${`00${Math.floor(o % 60)}`.slice(-2)}`;
 };
 
 export const isNaturalNumber = (strNumber) => {
@@ -182,5 +193,5 @@ export const byteSizeString = (size: number, limit: number, withSuffix: boolean)
     value = `${size}`;
   }
 
-  return withSuffix ? `${value} ${isUseKByte ? 'KBytes' :  'Bytes'}` : `${value}`;
+  return withSuffix ? `${value} ${isUseKByte ? 'KBytes' : 'Bytes'}` : `${value}`;
 };

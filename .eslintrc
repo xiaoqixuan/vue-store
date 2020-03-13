@@ -39,9 +39,14 @@
     "operator-linebreak": "off",
     "no-control-regex": "off",
     "no-unused-vars": "warn",
-    "no-param-reassign": "warn",
+    "no-param-reassign": "off",
     "no-underscore-dangle": "warn",
-    "no-undef": "warn"
+    "no-undef": "warn",
+    "no-useless-escape": "off",
+    "no-plusplus": "off",
+    "no-restricted-syntax": "warn",
+    "prefer-destructuring": "warn",
+    "no-multi-assign": "warn"
   },
   "settings": {
     "import/parsers": {

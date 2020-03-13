@@ -6,7 +6,9 @@ release/**
 node_modules/**
 build/**
 public/**
-utils/array.ts
+utils/**
 router/**
 api/**
+dto/**
+mixins/scroll.ts
 babel.config.js

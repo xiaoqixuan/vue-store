@@ -1,7 +1,7 @@
 import { Vue } from 'vue-property-decorator';
 
 // 平滑滚动
-export default class Scroll extends Vue{
+export default class Scroll extends Vue {
   scrollToTarget(target: any, animation: boolean = true) {
     let timer:any = '';
     if (!animation) {
@@ -26,6 +26,7 @@ export default class Scroll extends Vue{
           clearInterval(timer);
         }
       },
-      16.7);
+      16.7,
+    );
   }
 }

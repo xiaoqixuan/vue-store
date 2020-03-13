@@ -1,7 +1,10 @@
+# shop-store
 
+#### 介绍
+PC商城简易版
 
+#### 软件架构
 > ### 基于Vue3.0+Typescript构建的空白项目，包括css样式的初始化，以及基本常用的axios,vue-router,模块化使用vuex，element-ui已经按需引入配置好，还有axios拦截器，路由组件懒加载，以及对于不同环境的基本Url封装，还附带了一些常用的方法，以及包括打包优化的cdn引入，代码压缩，图片压缩，关闭map等打包优化都已配置完成
-
 
 ### 文件目录结构如下
 <pre>
@@ -47,8 +50,6 @@
 |  ├─ vue.config.js      // vue配置文件
 </pre>
 
-
-
 ## Project setup
 ```
 npm install or yarn install
@@ -68,6 +69,52 @@ npm run build or yarn build
 ```
 npm run lint or yarn lint
 ```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## About develop branch
+
+```
+master        基准分支
+develop       开发分支
+release/date  发布分支
+```
+## Develop Process
+
+### 1. New future
+```
+  1. 接收到需求，浏览并分析需求，拆分功能，新建issue/Epic。
+  2. 创建仓库，初始化项目，并拉取develop分支
+  3. 开始功能开发：
+    1) 从develop分支拉取功能分支，命名： #issueID_Function_brief (#I1BIXH_newProject_addReadme)
+    2) 更改issue状态为进行中
+
+  4. 功能开发完成， 提交代码， 提交信息： #issueID Function brief， 推送至远端
+
+  5. Issue 相关功能已实现后,新建Pull Request，并指定Reviewer
+      Title :  #issueID Function brief
+      Content: Future #issueID / Fix #issueID / Resolved #issueID
+  4. PR review 通过后，功能开发分支代码已合到develop分支，将issue状态更改为已完成
+```
+
+### 2. Fixed bugs
+```
+  1. 开始Bug修改开发:
+    1) 从develop分支拉取功能分支，命名： #issueID_Function_brief (#I1BIXH_newProject_addReadme)
+    2) 更改issue状态为进行中
+  2. 开发完成， 提交代码， 提交信息： #issueID Function brief， 推送至远端
+  3. Issue 相关bug已修复后，新建Pull Request，并指定Reviewer
+        issueID: #issueID
+        Title :  #issueID Function brief
+        Content: QA #issueID / QA-CN #issueID
+  4. PR review 通过后，功能开发分支代码已合到develop分支，将Issue 状态修改/拖拽至 QA/QA-CN,将issue状态更改为已完成
+```
+
+### 2. Release
+```
+  1. 发布前拉取发布分支：eg:  release/20181225
+  2. 发布过程中，修复的问题，直接提交到发布分支
+  3. 发布完成后，分别提交Pull Request， 将release分支合并到master / develop
+  4. 打上发布分支的tag，清理已发布的分支
+```
