@@ -16,7 +16,7 @@ configure({
 
 Object.keys(rules).forEach((rule) => {
   extend(rule, {
-    validate: rules[rule],
+    ...rules[rule],
     message: messages[rule],
   });
 });

@@ -6,7 +6,7 @@
     @changeVal="changeLanguage">
     <div slot="link">
       <span class="el-dropdown-link">
-        {{ $tc('locales.language')}}
+        {{ $tc('locales.' + lang)}}
         <i class="el-icon-arrow-down el-icon--right"></i>
       </span>
     </div>

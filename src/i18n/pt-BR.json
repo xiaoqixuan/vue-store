@@ -107,7 +107,7 @@
   },
   "validate": {
     "customDefault": "O campo deve ser um valor válido.",
-    "customRequired": "The field is required.",
+    "customRequired": "O campo é obrigatório.",
     "customIn": "The field must be a valid value.",
     "customMax": "The field may not be greater than {param} characters.",
     "customMin": "The field must be at least {param} characters.",
@@ -120,7 +120,7 @@
     "numMax": "Should be less than {param}.",
     "byteMax": "Can be up to {param} characters.",
     "numEn": "英字、数字、特殊文字（-）のみを許可し、最初の文字は英字でなければなりません。",
-    "ipAddress": "数字と' . 'のみ入。",
+    "ipAddress": "apenas números permitidos, caracteres especiais '.'.",
     "numEnKorea": "英語、ハングル、数字、「 - 」の特殊文字のみを許可し、英語で起動する必要があります。"
   },
   "error": {
